@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:notice",
+  "title": {"text": "✦ Server Announcements ✦", "color": "gold", "bold": true},
+  "external_title": {"text": "Announcements"},
+  "body": {
+    "type": "minecraft:plain_message",
+    "width": 260,
+    "contents": {"text": "See every announcement ever posted on this server.", "color": "gray"}
+  },
+  "pause": false,
+  "action": {
+    "label": {"text": "Open the board", "color": "gold"},
+    "action": {"type": "minecraft:run_command", "command": "/trigger announce"}
+  }
+}

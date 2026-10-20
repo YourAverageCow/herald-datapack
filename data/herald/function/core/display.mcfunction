@@ -1,0 +1,3 @@
+# Prints the announcement in storage herald:data cur to @s.
+# Call with: function herald:core/display with storage herald:data cur
+$tellraw @s ["",{text:"\n━━━━━━━━━  ",color:"gold"},{text:"✦ ANNOUNCEMENT ✦",color:"yellow",bold:true},{text:"  ━━━━━━━━━\n",color:"gold"},{text:" "},{storage:"herald:data",nbt:"cur.msg",interpret:true},{text:"\n  — ",color:"dark_gray"},{storage:"herald:data",nbt:"cur.sender",interpret:true},{text:"  ·  Day $(day)",color:"dark_gray"},{text:"   "},{text:"[All announcements]",color:"aqua",click_event:{action:"run_command",command:"/trigger announce"},hover_event:{action:"show_text",value:"Open the announcement board"}},{text:"\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n",color:"gold"}]

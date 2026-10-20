@@ -1,0 +1,1 @@
+$data modify storage herald:data menu.dlg.body append value {type:"minecraft:plain_message",width:320,contents:["",{text:"\n#$(id)  ·  Day $(day)  ·  ",color:"dark_gray"},$(sender),{text:"\n"},$(msg)]}

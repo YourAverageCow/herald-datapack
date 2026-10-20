@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": [
+      {"text": "Herald", "color": "gold", "bold": true},
+      {"text": "\nServer-wide announcements that reach offline players too", "color": "gray"}
+    ],
+    "min_format": 82,
+    "max_format": 200
+  }
+}

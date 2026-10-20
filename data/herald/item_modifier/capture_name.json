@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:set_name",
+  "entity": "this",
+  "target": "custom_name",
+  "name": {"selector": "@s"}
+}

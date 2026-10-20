@@ -1,0 +1,1 @@
+$tellraw @s ["",{text:" #$(id)  Day $(day)  ",color:"dark_gray"},{storage:"herald:data",nbt:"cur.sender",interpret:true},{text:": ",color:"dark_gray"},{storage:"herald:data",nbt:"cur.msg",interpret:true}]
