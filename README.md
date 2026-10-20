@@ -7,6 +7,7 @@
   <img alt="Datapack" src="https://img.shields.io/badge/type-datapack-B22234?style=for-the-badge">
   <img alt="No mods required" src="https://img.shields.io/badge/mods-none_required-F7C43A?style=for-the-badge">
   <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-2B2F5A?style=for-the-badge">
+  <a href="https://modrinth.com/datapack/herald-announcements"><img alt="Get it on Modrinth" src="https://img.shields.io/badge/Modrinth-get_it-1BD96A?style=for-the-badge&logo=modrinth&logoColor=white"></a>
 </p>
 
 **Herald** lets server admins send an announcement to everyone at once, and makes sure nobody misses it.
@@ -25,7 +26,7 @@ Every announcement is also kept on an **Announcement Board** that any player can
 
 ## 📦 Install
 
-1. Download `herald-vX.Y.Z.zip` from the [latest release](../../releases/latest).
+1. Download `herald-vX.Y.Z.zip` from [Modrinth](https://modrinth.com/datapack/herald-announcements) or the [latest GitHub release](../../releases/latest).
 2. Drop the zip into `<world>/datapacks/`.
 3. Run `/reload` (or restart the server).
 
